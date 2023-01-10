@@ -1,6 +1,50 @@
+body{
+    font-family: sans-serif;
+}
 h1{
     text-align: center;
+}
+.container{
+    max-width: 600px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+select{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: rgb(226, 226, 226) dashed;
+}
+.container :last-child{
+    border-bottom: none;
+}
+h2{
+    margin: 0 0 5px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.time{
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: auto;
+}
+.time small{
+    font-size: 18px;
 }
 footer{
     text-align: center;
 }
+
+
+
+

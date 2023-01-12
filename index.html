@@ -13,44 +13,47 @@
 <body>
     <h1>World Clock</h1>
     <div class="container">
-        <select>
-            <option>Select a city</option>
-            <option>New York 🇺🇸</option>
-            <option>London 🏴󠁧󠁢󠁥󠁮󠁧󠁿</option>
-            <option>Tokyo 🇯🇵</option>
+        <select id="city-dropdown">
+            <option value="">Select a city</option>
+            <option value="America/New_York">New York 🇺🇸</option>
+            <option value="Europe/London">London 🏴󠁧󠁢󠁥󠁮󠁧󠁿</option>
+            <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
+            <option value="America/Argentina/Buenos_Aires">Buenos Aires 🇦🇷</option>
         </select>
-        <div class="city" id="los-angeles">
-            <div>
-                <h2>
-                    Los Angeles 🇺🇸
-                </h2>
-                <div class="date"></div>
+        <div class="cities">
+            <div class="city" id="los-angeles">
+                <div>
+                    <h2>
+                        Los Angeles 🇺🇸
+                    </h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
             </div>
-            <div class="time"></div>
-        </div>
-        <div class="city" id="buenos-aires">
-            <div>
-                <h2>
-                    Buenos Aires 🇦🇷
-                </h2>
-                <div class="date"></div>
+            <div class="city" id="buenos-aires">
+                <div>
+                    <h2>
+                        Buenos Aires 🇦🇷
+                    </h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
             </div>
-            <div class="time"></div>
-        </div>
-        <div class="city" id="copenhagen">
-            <div>
-                <h2>
-                    Copenhagen 🇩🇰
-                </h2>
-                <div class="date"></div>
+            <div class="city" id="copenhagen">
+                <div>
+                    <h2>
+                        Copenhagen 🇩🇰
+                    </h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
             </div>
-            <div class="time"></div>
-        </div>
+            </div>
         
 
     </div>
     <footer>
-        Coded by 😎 Valentina Erramouspe and is <a href="https://github.com/valenerramouspe/world-clock" target="_blank">open sourced on GitHub</a>
+        Coded by 😎 Valentina Erramouspe and <a href="https://github.com/valenerramouspe/world-clock" target="_blank">open sourced on GitHub</a>
     </footer>
     <script src="javascript/index.js"></script>    
 </body>

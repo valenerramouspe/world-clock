@@ -37,6 +37,9 @@ function changeCity(event){
     if(event){
         setInterval( newCityUpdate =>{
             let timeZone = event.target.value
+            if (event.target.value === 'current'){
+                timeZone = moment.tz.guess()
+            }
             let currentTime =moment().tz(timeZone)
             cities.innerHTML=`
                 <div class="city"><div>

@@ -1,13 +1,15 @@
 body{
     font-family: sans-serif;
+    background: cadetblue;
 }
 h1{
     text-align: center;
+    color:white;
 }
 .container{
     max-width: 600px;
     margin: 60px auto;
-    background: white;
+    background: rgb(247, 245, 245);
     padding: 30px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
@@ -43,6 +45,7 @@ h2{
 }
 footer{
     text-align: center;
+    color: white;
 }
 
 

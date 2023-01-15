@@ -50,7 +50,7 @@ function changeCity(event){
                 </div>
                 <div class="time">${currentTime.format("h:mm:ss [<small>]A[</small>]")}</div>
             </div>
-            <a href="/">All cities</a>`
+            <a href="/">All cities</a>` 
         }, 100)
     }
 }

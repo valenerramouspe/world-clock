@@ -41,7 +41,7 @@ function changeCity(event){
                 timeZone = moment.tz.guess()
             }
             let currentTime =moment().tz(timeZone)
-            cities.innerHTML=`
+            cities.innerHTML= `
                 <div class="city"><div>
                     <h2>
                         ${timeZone.replace("_", " ").split("/").pop()}
